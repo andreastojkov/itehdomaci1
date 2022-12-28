@@ -1,25 +1,13 @@
-/* .a_header {
-  font-size: 30px !important;
-} */
 
-.logo-pic {
-    height: 60px;
-    width: 60px;
-  }
-  
-  /* .text-white {
-    margin-left: -650px;
-    margin-top: 7px;
-  } */
-  
-  
   .centerDiv {
     width: 99vw !important;
-    height: 110vh !important;
+    height: 190vh !important;
     border: 1px solid black;
-    background-image: url("../img/healthbackground.jpg");
+    background-image: url("../img/bckg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 15% 1fr 15%;
@@ -30,17 +18,7 @@
     height: auto !important;
     border-bottom: none;
   }
-  
-  /* .wallpaper_div {
-    width: 100% !important;
-    height: 500px; */
-  /* } */
-  /* 
-  #wallpaper_img {
-    width: 100% !important;
-    height: 500px !important;
-  } */
-  
+
   .left_div {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -58,12 +36,7 @@
   .centered {
     text-align: center !important;
   }
-  /* 
-  .carosel_div {
-    width: 100%;
-    height: 250px !important;
-  } */
-  
+
   .h1_text {
     margin-top: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -77,10 +50,6 @@
     padding-left: 30% !important;
     padding-right: 30% !important;
   }
-  
-  /* .hoverable:hover {
-    cursor: pointer;
-  } */
   
   .h_div {
     display: inline-block;
@@ -122,4 +91,5 @@
     margin: 20px;
     justify-content: center;
   }
+
   
