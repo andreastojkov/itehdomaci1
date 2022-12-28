@@ -120,7 +120,7 @@
         <table class="table">
           <thead class="thead-red" style="background-color: #D2CCE1;">
             <tr>
-              <th scope="col">ID</th>
+              <th scope="col"></th>
               <th scope="col">Usluga</th>
               <th scope="col">Pruzalac</th>
               <th scope="col">Broj termina</th>

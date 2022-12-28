@@ -36,13 +36,13 @@
           LOKACIJE
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="http://www.dzvozdovac.rs/">Voždovac</a>
-          <a class="dropdown-item" href="https://dzvracar.org.rs/">Vračar</a>
-          <a class="dropdown-item" href="https://dzzvezdara.rs/">Zvezdara</a>
-          <a class="dropdown-item" href="http://www.dzzemun.org.rs/">Zemun</a>
-          <a class="dropdown-item" href="http://www.dznbgd.com/">Novi Beograd</a>
+          <a class="dropdown-item" href="http://www.dzvozdovac.rs/" target="_blank">Voždovac</a>
+          <a class="dropdown-item" href="https://dzvracar.org.rs/" target="_blank">Vračar</a>
+          <a class="dropdown-item" href="https://dzzvezdara.rs/" target="_blank">Zvezdara</a>
+          <a class="dropdown-item" href="http://www.dzzemun.org.rs/" target="_blank">Zemun</a>
+          <a class="dropdown-item" href="http://www.dznbgd.com/" target="_blank">Novi Beograd</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="https://www.beograd.rs/lat/zivot-u-beogradu/1784-domovi-zdravlja/">Spisak svih domova zdravlja</a>
+          <a class="dropdown-item" href="https://www.beograd.rs/lat/zivot-u-beogradu/1784-domovi-zdravlja/" target="_blank">Spisak svih domova zdravlja</a>
         </div>
       </li>
       <li class="nav-item">
