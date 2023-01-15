@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Termini usluga</title>
+  <title>DOM ZDRAVLJA</title>
   <link rel="stylesheet" href="global.css">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -55,7 +55,7 @@
         <table class="table">
           <thead class="thead-red" style="background-color: #D2CCE1 ;">
             <tr>
-              <th scope="col">ID</th>
+              <th scope="col"></th>
               <th scope="col">Usluga</th>
               <th scope="col">Klijent</th>
               <th scope="col">Datum</th>

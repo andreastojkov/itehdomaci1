@@ -15,7 +15,6 @@ if(isset($_POST['naziv']) && isset($_POST['pruzalac'])) {
     }else{ 
          echo '1';
     }
-
 }
 
 

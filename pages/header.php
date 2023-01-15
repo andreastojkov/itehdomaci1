@@ -1,10 +1,6 @@
-
 <div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light navbardec">
   <a class="navbar-brand" href="#">DOM ZDRAVLJA</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-
-  </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
@@ -25,11 +21,12 @@
           <a class="dropdown-item" href="http://www.dzzemun.org.rs/" target="_blank">Zemun</a>
           <a class="dropdown-item" href="http://www.dznbgd.com/" target="_blank">Novi Beograd</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="https://www.beograd.rs/lat/zivot-u-beogradu/1784-domovi-zdravlja/" target="_blank">Spisak svih domova zdravlja</a>
+          <a class="dropdown-item" href="https://www.beograd.rs/lat/zivot-u-beogradu/1784-domovi-zdravlja/" target="_blank">
+            Spisak svih domova zdravlja</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> MAPA - USKORO </a>
+        <a class="nav-link disabled"> MAPA - USKORO </a>
       </li>
     </ul>
   </div>

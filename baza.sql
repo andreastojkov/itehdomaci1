@@ -52,11 +52,11 @@ CREATE TABLE `termin` (
 /*Data for the table `termin` */
 
 insert  into `termin`(`id`,`usluga`,`klijent`,`datum`,`prostorija`) values 
-(1,2,'Andrea Stojkov','2022-02-14',19),
-(2,3,'Mia Stojkov','2022-01-16',3),
-(3,5,'Luka Lukic','2022-02-22',16),
-(4,4,'Tijana Tijanic','2022-01-30',2),
-(5,3,'Nemanja Nemanjic','2022-03-15',2);
+(1,2,'Andrea Stojkov','2023-02-14',19),
+(2,3,'Mia Stojkov','2023-01-16',3),
+(3,5,'Luka Lukic','2023-02-22',16),
+(4,4,'Tijana Tijanic','2023-01-30',2),
+(5,3,'Nemanja Nemanjic','2023-03-15',2);
 
 /*Table structure for table `usluga` */
 

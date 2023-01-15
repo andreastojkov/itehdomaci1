@@ -84,9 +84,7 @@
             </div>
             <div class="form-group">
               <label for="pruzalac_dodaj">Pruzalac usluge:</label>
-              <select class="form-control" id="pruzalac_dodaj" placeholder="" required>
-
-              </select>
+              <select class="form-control" id="pruzalac_dodaj" placeholder="" required></select>
             </div>
             <fieldset disabled>
               <div class="form-group">
@@ -127,8 +125,7 @@
             </tr>
           </thead>
           <tbody id='usluge'>
-
-
+            <!-- generisu se usluge iz baze  -->
           </tbody>
         </table>
       </div>
@@ -147,10 +144,13 @@
 
   </div>
 
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    
   <script>
     let usluge = [];
     let pruzaoci = [];
@@ -211,11 +211,6 @@
             alert("Morate uneti naziv usluge!");
             return false;
         }
-        const regex = '/^([^0-9]*)$/';
-        if(naziv===1) {
-          alert("Naizv usluge ne sme sadrzati cifre!");
-            return false;
-        }
         else {
             const pruzalac = $('#pruzalac_dodaj').val();
             $.post('../uslugaHandlers/add.php', { naziv: naziv, pruzalac: pruzalac }, function (data) {
@@ -229,7 +224,7 @@
         }
       })
 
-      // Modal za dodavanje
+      // Modal za dodavanje 
       $('#exampleModal').on('show.bs.modal', function (e) {
         $('#pruzalac_dodaj').html('');
         for (let pruzalac of pruzaoci) {
